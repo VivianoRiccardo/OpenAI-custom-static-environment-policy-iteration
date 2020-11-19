@@ -121,7 +121,6 @@ class StaticinvaderEnv(gym.Env):
             l1.append(i)
             l2.append(self.get_probability_of_new_state(new_states[i],old_state,action))
         new_state = new_states[np.random.choice(l1,p=l2)]
-        print(new_state)
         self.current_state = new_state
         reward = self.get_reward(old_state,self.current_state)
         done = self.is_terminal_state(self.current_state)
