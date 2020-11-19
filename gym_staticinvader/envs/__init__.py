@@ -1,0 +1,1 @@
+from gym_staticinvader.envs.staticinvader_env import StaticinvaderEnv
