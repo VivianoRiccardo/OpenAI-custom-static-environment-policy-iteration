@@ -145,6 +145,7 @@ def second_quest():
         env.render()
         env.step(d[from_nparray_to_str(env.current_state)][1])
         time.sleep(0.3)
+    env.render()    
     print("The game ended")
             
 if __name__ == "__main__":
