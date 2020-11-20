@@ -1,3 +1,7 @@
+# My repo
+
+https://github.com/VivianoRiccardo/OpenAI-custom-static-environment-policy-iteration
+
 # Tutorial for the openai gym environment creation
 
 https://github.com/openai/gym/blob/master/docs/creating-environments.md
