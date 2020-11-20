@@ -56,7 +56,7 @@ however the code has been scripted to handle a distribution probability among di
 # Execution
 
 Leave the policy iteration algorithm run (about 5 minutes to complete) and you will see
-the agent play the game according to the optimal policy he found during the policy iteration algorithm,
+the agent playing the game according to the optimal policy he found during the policy iteration algorithm,
 When there are no 4 (invaders) the agent achieved its goal!
 
 
